@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: verdana, sans-serif;;
+}
+#wrapper{
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 1670px;
+	height: 785px;
+	border: 1px solid black;
+	background-color: #F1F1F1;
+}
+#home{
+	float: left;
+	padding-top: 20px;
+	width: 210px;
+	height: 760px;
+	font-family: verdana;
+	font-size: 16px;
+}
+#tutorial{
+	margin: 2px;
+	float: left;
+	height: 750px;
+	width: 1200px;
+	border: 1px solid grey;
+	background-color: white;
+}
+#tut{
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	font-family: verdana;
+}
+button{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 10px;
+}
+hr{	
+	width: 98%;
+	margin-left: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ul{
+	list-style-type: none;
+}
+ul li:first-of-type{
+	color: #981F1D;
+	font-weight: bold;
+}
+ul li, p{
+	padding-left: 5px;
+}
+.subDiv{
+	margin-left: 8px;
+	width: 1173px;
+	height: 20px;
+	background-color: #808080;
+	color: white;
+	font-weight: bold;
+	padding-left: 5px;
+}
+#logo{
+	float: left;
+	margin: 20px;
+	width: 70px;
+	height: 75px;
+}
+.text{
+	font-weight: bold;
+}
+.text:first-of-type{
+	padding-top: 20px;
+}
+#learn{
+	color: #981F1D;
+	font-weight: bold;
+}
+.muchText{
+	margin-left: 3px;
+}
+#try{
+	color: #981F1D;
+	font-weight: bold;
+	margin-left: 8px;
+}
+#ref{
+	color: #981F1D;
+	font-weight: bold;
+	margin-left: 8px;
+}
+#quiz{
+	color: #981F1D;
+	font-weight: bold;
+	margin-left: 8px;
+}
+#search{
+}
+.sch{
+	text-align: center;
+	color: #981F1D;
+}
+.nav{
+	margin-top: 2px;
+	float: right;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	width: 253px;
+	height: 20px;
+	background-color: #808080;
+}
+#one{
+}

@@ -1,0 +1,35 @@
+﻿body {
+    background-color: #d3d3d3;
+}
+#theHeader, nav{
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+}
+.current:hover{
+	background-color: grey;
+}
+.underlined{
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+nav ul li a {
+    text-decoration:none;
+    font-weight: bold;
+    color: white;
+}
+h1 {
+    color:#FCF0BB;
+}
+.doncho {
+    text-decoration: none;
+    color: inherit;
+}
+p:last-child{
+     font-size: small;
+}
+#footer {
+    text-align: center;
+}

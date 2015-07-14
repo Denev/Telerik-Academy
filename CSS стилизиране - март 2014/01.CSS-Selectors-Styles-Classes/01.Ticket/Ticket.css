@@ -1,0 +1,39 @@
+﻿body, div, table, p{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	background-color: gray;
+	height: 250px;
+	width: 350px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+img {
+     width: 15px;
+     height: 15px;
+}
+#ticket {
+    color:#d4d4d4;
+	padding-left: 5px;
+	padding-top: 10px;
+	font-size: 1.2em;
+}
+#support {
+    font-weight: bold;
+    color: red;
+}
+.yellow {
+    color: #EBE488;
+}
+td:first-of-type {
+    color: white;
+    font-style: italic;
+}
+#notAnswered {
+    color: orange;
+    font-weight: bold;
+}
+.gray {
+    color: #eaeaea;
+}

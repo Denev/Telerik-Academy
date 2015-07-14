@@ -1,0 +1,21 @@
+table 
+	{ 
+		width: 390px;
+	}
+	#centered
+	{
+		text-align:center;
+		font-style: italic;
+	}
+	img
+	{
+		height: 60%;
+	}
+	td
+	{
+		padding: 5px;
+	}
+	h1
+	{
+		margin: 0;
+	}

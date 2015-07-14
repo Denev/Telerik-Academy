@@ -1,0 +1,9 @@
+table 
+		{
+			table-layout: fixed; 
+			border-collapse: collapse;
+		}
+		td 
+		{ 
+			width: 20%;
+		}

@@ -1,0 +1,28 @@
+
+	.aside{
+		border-top: none;
+		border-right: none;
+		border-bottom: none;
+	}
+	.mainTable
+	{
+		border: 2px solid black;
+	}
+	nav ul li
+	{
+		 display:inline;
+	}
+	#air
+	{
+		width: 95px;
+		height: 60px;
+	}
+	legend 
+	{
+		text-align: center;
+	}
+	header nav ul li a{
+		font-size: 1.3em;
+		font-weight: bold;
+		color: #12B4F1;
+	}

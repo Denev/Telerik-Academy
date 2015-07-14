@@ -1,0 +1,23 @@
+
+		table, tr, td, th{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		.one{
+			border: 2px solid orange;
+		}
+		.right{
+			float: right;
+		}
+		img{
+			
+			width: 25px;
+			height: 20px;
+		}
+		.movie{
+			width: 20px;
+			height: 20px;
+		}
+		a{
+			text-decoration: none;
+		}

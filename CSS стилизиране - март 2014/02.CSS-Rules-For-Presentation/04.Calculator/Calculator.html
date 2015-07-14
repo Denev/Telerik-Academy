@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="Calc.css">
+	</head>
+
+	<body>
+		
+		<div class="main">
+			<div class="second">
+				<div class="calcmenu">
+					<ul class="menu">
+						<li class="menu-item">View</li>
+						<li class="menu-item">Edit</li>
+						<li class="menu-item">Help</li>
+					</ul>
+				</div>
+				<input type="text" class="zeros"/>	
+				<div class="binary">
+					<table id="first">
+						<tr>
+							<td class="binarytabletd">
+								0000<br />
+								<span class="greydigits">63</span><br />
+								0000<br />
+								<span class="greydigits">31</span>
+							</td>
+							<td class="binarytabletd"> 
+								0000<br />
+									<br />
+								0000<br />
+									
+							</td>
+							<td class="binarytabletd"> 
+								0000<br />
+									<br />
+								1000<br />
+										
+							</td>
+							<td class="binarytabletd"> 
+								0000<br />
+									<br />
+								0111<br />
+										
+							</td>
+							<td class="binarytabletd">  
+								0000<br />
+								<span class="greydigits">47</span><br />
+								0001<br />
+								<span class="greydigits">15</span>
+							</td>
+							<td class="binarytabletd">  
+								0000<br />
+									<br />
+								1011<br />
+									
+							</td>
+							<td class="binarytabletd">  
+								0000<br />
+									<br />
+								1011<br />
+										
+							</td>
+							<td class="binarytabletd">  
+								0000<br />
+								<span class="greydigits">32</span><br />
+								0111<br />
+								<span class="greydigits">0</span>
+							</td>
+						</tr>									
+					</table>
+				</div>
+				<div class="count">
+					<input type="radio" name="count" />Hex<br />
+					<input type="radio" name="count" checked="checked" />Dec<br />
+					<input type="radio" name="count" />Oct<br />
+					<input type="radio" name="count" />Bin
+				</div>
+				<div class="sword">
+					<input type="radio" name="sword" checked="checked" />Qword<br />
+					<input type="radio" name="sword" />Dword<br />
+					<input type="radio" name="sword" />Word<br />
+					<input type="radio" name="sword" />Byte
+				</div>
+				<div>
+					<table cellpadding="1" cellspacing="1" class="buttonstable">
+						<tr>
+							<td><button class="disabledbutton"></button></td>
+							<td><button class="btns randomBtns hovered">Mod</button></td>
+							<td><button class="disabledbutton lettersnumbers">A</button></td>
+							<td><button class="btns hovered">MC</button></td>
+							<td><button class="btns hovered">MR</button></td>
+							<td><button class="btns hovered">MS</button></td>
+							<td><button class="btns hovered">M&#43;</button></td>
+							<td><button class="btns hovered">M&#45;</button></td>
+						</tr>
+						<tr>
+							<td><button class="randomBtns hovered">&#40;</button></td>
+							<td><button class="randomBtns hovered">&#41;</button></td>
+							<td><button class="disabledbutton lettersnumbers">B</button></td>
+							<td><button class="randomBtns hovered">&larr;</button></td>
+							<td><button class="randomBtns hovered">CE</button></td>
+							<td><button class="randomBtns hovered">C</button></td>
+							<td><button class="randomBtns hovered">&plusmn;</button></td>
+							<td><button class="disabledbutton">&radic;</button></td>
+						</tr>
+						<tr>
+							<td><button class="randomBtns hovered">RoL</button></td>
+							<td><button class="randomBtns hovered">RoR</button></td>
+							<td><button class="disabledbutton lettersnumbers">C</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">7</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">8</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">9</button></td>
+							<td><button class="randomBtns hovered">&frasl;</button></td>
+							<td><button class="disabledbutton">&#37;</button></td>
+						</tr>
+						<tr>
+							<td><button class="randomBtns hovered">Or</button></td>
+							<td><button class="randomBtns hovered">Xor</button></td>
+							<td><button class="disabledbutton lettersnumbers">D</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">4</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">5</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">6</button></td>
+							<td><button class="randomBtns hovered">&#42;</button></td>
+							<td><button class="disabledbutton">1&#47;x</button></td>
+						</tr>
+						<tr>
+							<td><button class="randomBtns hovered">Lsh</button></td>
+							<td><button class="randomBtns hovered">Rsh</button></td>
+							<td><button class="disabledbutton lettersnumbers">E</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">1</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">2</button></td>
+							<td><button class="lettersnumbers numbersonly hovered">3</button></td>
+							<td><button class="randomBtns hovered">&#45;</button></td>
+							<td rowspan="2"><button class="randomBtns hovered" id="equalsbutton">&#61;</button></td>
+						</tr>
+						<tr>
+							<td><button class="randomBtns hovered">Not</button></td>
+							<td><button class="randomBtns hovered">And</button></td>
+							<td><button class="disabledbutton lettersnumbers">F</button></td>
+							<td colspan="2"><button class="lettersnumbers numbersonly hovered" id="zerobutton">0</button></td>
+							<td><button class="disabledbutton">.</button></td>
+							<td><button class="randomBtns hovered">&#43;</button></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+				
+	</body>
+	
+</html>

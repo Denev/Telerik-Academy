@@ -1,0 +1,19 @@
+
+		#microsoft
+		{
+			width: 225px;
+			height: 75px;
+		}
+		.welcome
+		{
+			text-align: center;
+		}
+		table, td, th
+		{
+			border: 2px solid black;
+		}
+		table
+		{
+			border-collapse:collapse;
+			text-align: center;
+		}

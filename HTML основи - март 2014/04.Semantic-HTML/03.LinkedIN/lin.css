@@ -1,0 +1,16 @@
+
+	#char
+	{
+		list-style-type:none;
+	}
+	#signIn
+	{
+		border: 1px solid #EDF9FF;
+	}
+	#signUp
+	{
+		border: 1px solid #EDF9FF;
+	}
+	#crosshair{
+		cursor: url(cursor.png), auto;
+	}

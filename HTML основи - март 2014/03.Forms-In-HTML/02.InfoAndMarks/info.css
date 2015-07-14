@@ -1,0 +1,21 @@
+table 
+		{ 
+			border-collapse:collapse;
+		}
+		table th
+		{
+			padding: 5px;
+		}
+		table, th, td
+		{
+			padding: 3px;
+			border: 1px solid black;
+		}
+		.total
+		{
+			text-align: center;
+			font-weight: bold;
+		}
+		a:visited{
+			color: blue;
+		}

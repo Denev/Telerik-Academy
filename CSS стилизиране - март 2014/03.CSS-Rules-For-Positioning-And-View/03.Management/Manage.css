@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 660px;
+	height: 300px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin: 10px;
+}
+#login{
+	width: 660px;
+	height: 50px;
+	background-color: #2B2B2B;
+}
+#monitor{
+	float:left;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 20px;
+	width: 35px;
+	height: 40px;
+}
+#login #members{
+	display: block;
+	float:left;
+	padding-top: 15px;
+	padding-right: 20px;
+	color: white;
+	font-family: Verdana;
+}
+#textbox{
+	
+}
+#go{
+	width: 60px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: red;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+#text{
+	width: 660px;
+	height: 250px;
+	background-color: #3B3B3B;
+}
+#management{
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #FAD219;
+	font-size: 26px;
+}
+.total{
+	color: #A8A8A8;
+	padding-left: 10px;
+	font-size: 17px;
+}
+#white{
+	color: white;
+}
